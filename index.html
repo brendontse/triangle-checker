@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+      <title></title>
+    </head>
+    <meta charset="utf-8">
+    <title>Triangle</title>
+  </head>
+  <body>
+    <form id="sides" action="index.html" method="post">
+      <label for="side1">Length of 1st side</label>
+      <input id='side1' type="number" name="side1" value="">
+      <label for="side2">Length of 2nd side</label>
+      <input id='side2' type="number" name="side2" value="">
+      <label for="side3">Length of 3rd side</label>
+      <input id='side3' type="number" name="side3" value="">
+      <button type="submit"> Enter </button>
+    </form>
+    <div class="container">
+      <div id="equilateral">
+        <p>Your triangle will be an equilateral triangle because all three sides are the same length!</p>
+      </div>
+      <div id="isosceles">
+        <p>Your triangle will be an isosceles triangle because two sides are the same length!</p>
+      </div>
+      <div id="noTriangle">
+        <p>Your triangle cannot exist because the sum of the lengths of two sides does not exceed the length of the third side.</p>
+      </div>
+      <div id="scalene">
+        <p>Your triangle will be a scalene triangle because none of the three sides are equal to another side </p>
+      </div>
+    </div>
+  </body>
+</html>
