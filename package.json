@@ -1,0 +1,24 @@
+{
+  "name": "triangle-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendontse/triangle-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendontse/triangle-checker/issues"
+  },
+  "homepage": "https://github.com/brendontse/triangle-checker#readme",
+  "devDependencies": {
+    "webpack": "4.19.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
