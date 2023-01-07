@@ -19,6 +19,6 @@
   "homepage": "https://github.com/brendontse/triangle-checker#readme",
   "devDependencies": {
     "webpack": "4.19.1",
-    "webpack-cli": "^2.0.9"
+    "webpack-cli": "^5.0.1"
   }
 }
